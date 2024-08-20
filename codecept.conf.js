@@ -27,7 +27,5 @@ exports.config = {
   },
   include: {
     I: './steps_file.js', // Local do arquivo de etapas
-
-    loginPage: "./pages/login_page.js"
   },
 };
