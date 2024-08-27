@@ -14,7 +14,7 @@ exports.config = {
   helpers: {
     Appium: {
       appiumV2: true,
-      url: 'http://127.0.0.1:4723/', // URL do servidor Appium
+      url: 'http://192.168.122.106:4723/', // URL do servidor Appium
       app: '/Users/rodrigorossetitozatti/Repositorio-Mac/Automacao-Mobile-iOS/app/qazandoapp.app',
       desiredCapabilities: {
         platformName: 'iOS',
@@ -27,5 +27,7 @@ exports.config = {
   },
   include: {
     I: './steps_file.js', // Local do arquivo de etapas
+    loginPage: "./pages/login.js",
+    paginaInicialPage: "./pages/paginaInicial.js",
   },
 };
